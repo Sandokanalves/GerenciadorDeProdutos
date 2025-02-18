@@ -1,0 +1,15 @@
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\bin\Debug\net7.0\Application.deps.json
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\bin\Debug\net7.0\Application.dll
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\bin\Debug\net7.0\Application.pdb
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\bin\Debug\net7.0\Domain.dll
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\bin\Debug\net7.0\Domain.pdb
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\Application.dll
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\refint\Application.dll
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\Application.pdb
+C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\Application\obj\Debug\net7.0\ref\Application.dll
