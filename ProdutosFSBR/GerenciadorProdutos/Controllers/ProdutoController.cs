@@ -14,9 +14,13 @@ namespace GerenciadorProdutos.Controllers
         }
 
         
-        public IActionResult Index()
+        public async  Task<IActionResult> Index()
         {
-            var produtos = _produtoService.ListarProdutosAsync();
+            var produtos = await _produtoService.ListarProdutosAsync();
+            if (produtos == null || !produtos.Any())  
+            {
+                produtos = new List<Produto>();  
+            }
             return View(produtos);
         }
 
@@ -53,9 +57,9 @@ namespace GerenciadorProdutos.Controllers
 
         
         [HttpGet]
-        public IActionResult Edit(int id)
+        public async Task<IActionResult> Edit(int id)
         {
-            var produto = _produtoService.ObterProdutoPorIdAsync(id);
+            var produto = await _produtoService.ObterProdutoPorIdAsync(id);
             if (produto == null)
             {
                 return NotFound();
@@ -82,9 +86,9 @@ namespace GerenciadorProdutos.Controllers
 
         
         [HttpGet]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var produto = _produtoService.ObterProdutoPorIdAsync(id);
+            var produto = await _produtoService.ObterProdutoPorIdAsync(id);
             if (produto == null)
             {
                 return NotFound();
@@ -93,23 +97,23 @@ namespace GerenciadorProdutos.Controllers
         }
 
         
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var produto = _produtoService.ObterProdutoPorIdAsync(id);
+            var produto = await _produtoService.ObterProdutoPorIdAsync(id);
             if (produto == null)
             {
                 return NotFound();
             }
 
-            if (produto.Result.QuantidadeEstoque > 0)
+            if (produto.QuantidadeEstoque > 0)
             {
-                ModelState.AddModelError("", "Não é possível remover um produto que ainda tem estoque.");
-                return View(produto);
+                TempData["Erro"] = "Não é possível remover um produto que ainda tem estoque.";
+                return RedirectToAction("Delete", new { id });
             }
 
-            _produtoService.ExcluirProdutoAsync(id);
+           await _produtoService.ExcluirProdutoAsync(id);
             return RedirectToAction(nameof(Index));
         }
     }

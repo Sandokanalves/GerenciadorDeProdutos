@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\FSBRProjeto\GerenciadorDeProdutos\ProdutosFSBR\GerenciadorProdutos
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/FSBRProjeto/GerenciadorDeProdutos/ProdutosFSBR/GerenciadorProdutos/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/FSBRProjeto/GerenciadorDeProdutos/ProdutosFSBR/GerenciadorProdutos/Views/Produto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FSBRProjeto/GerenciadorDeProdutos/ProdutosFSBR/GerenciadorProdutos/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/FSBRProjeto/GerenciadorDeProdutos/ProdutosFSBR/GerenciadorProdutos/Views/Produto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FSBRProjeto/GerenciadorDeProdutos/ProdutosFSBR/GerenciadorProdutos/Views/Produto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FSBRProjeto/GerenciadorDeProdutos/ProdutosFSBR/GerenciadorProdutos/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FSBRProjeto/GerenciadorDeProdutos/ProdutosFSBR/GerenciadorProdutos/Views/Produto/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/FSBRProjeto/GerenciadorDeProdutos/ProdutosFSBR/GerenciadorProdutos/Views/Shared/Error.cshtml]

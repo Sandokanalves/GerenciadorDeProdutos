@@ -17,10 +17,10 @@ namespace Application.Services
             _produtoRepository = produtoRepository;
         }
         public async Task<IEnumerable<Produto>> ListarProdutosAsync()
-            => await _produtoRepository.GetAllAsync();
+            => await _produtoRepository.GetAllAsync() ?? new List<Produto>();
 
         public async Task<Produto?> ObterProdutoPorIdAsync(int id) 
-            => await _produtoRepository.GetByIdAsync(id);
+            => await _produtoRepository.GetByIdAsync(id) ;
 
         public async Task AdicionarProdutoAsync(Produto produto)
             => await _produtoRepository.AddAsync(produto);
