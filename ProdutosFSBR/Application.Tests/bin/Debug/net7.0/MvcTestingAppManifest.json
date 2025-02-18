@@ -1,0 +1,6 @@
+{
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\FSBRProjeto\\GerenciadorDeProdutos\\ProdutosFSBR\\Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\FSBRProjeto\\GerenciadorDeProdutos\\ProdutosFSBR\\Domain",
+  "GerenciadorProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\FSBRProjeto\\GerenciadorDeProdutos\\ProdutosFSBR\\GerenciadorProdutos",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\FSBRProjeto\\GerenciadorDeProdutos\\ProdutosFSBR\\Infrastructure"
+}
