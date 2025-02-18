@@ -1,14 +1,13 @@
 ﻿@model Domain.Entities.Produto
 
-
 @{
     ViewData["Title"] = "Adicionar Produto";
 }
 
 <div class="container mt-5">
-    <h2 class="text-center mb-4">➕ Adicionar Novo Produto</h2>
+    <h2 class="text-center">➕ Adicionar Novo Produto</h2>
 
-    <form asp-action="Create" method="post" class="card shadow-lg p-4">
+    <form asp-action="Create" method="post" class="card shadow p-4">
         <div class="mb-3">
             <label class="form-label">Nome:</label>
             <input asp-for="Nome" class="form-control" required>

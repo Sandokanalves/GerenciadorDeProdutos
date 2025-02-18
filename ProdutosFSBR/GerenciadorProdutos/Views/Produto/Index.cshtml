@@ -4,42 +4,46 @@
     ViewData["Title"] = "Lista de Produtos";
 }
 
-<h2>Lista de Produtos</h2>
+<div class="container mt-4">
+    <h2 class="text-center">📦 Lista de Produtos</h2>
 
-<a asp-action="Create" class="btn btn-primary">Adicionar Produto</a>
+    <div class="d-flex justify-content-end mb-3">
+        <a asp-action="Create" class="btn btn-success">➕ Adicionar Produto</a>
+    </div>
 
-<table class="table table-striped mt-3">
-    <thead>
-        <tr>
-            <th>Nome</th>
-            <th>Descrição</th>
-            <th>Preço</th>
-            <th>Quantidade</th>
-            <th>Ações</th>
-        </tr>
-    </thead>
-    <tbody>
-        @if (Model != null && Model.Any())
-        {
-            @foreach (var produto in Model)
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var produto in Model)
+                {
+                    <tr>
+                        <td>@produto.Nome</td>
+                        <td>@produto.Descricao</td>
+                        <td>@produto.Preco.ToString("C")</td>
+                        <td>@produto.QuantidadeEstoque</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@produto.Id" class="btn btn-warning btn-sm">✏ Editar</a>
+                            <a asp-action="Delete" asp-route-id="@produto.Id" class="btn btn-danger btn-sm">🗑 Excluir</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
             {
                 <tr>
-                    <td>@produto.Nome</td>
-                    <td>@produto.Descricao</td>
-                    <td>@produto.Preco.ToString("C")</td>
-                    <td>@produto.QuantidadeEstoque</td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@produto.Id" class="btn btn-warning btn-sm">Editar</a>
-                        <a asp-action="Delete" asp-route-id="@produto.Id" class="btn btn-danger btn-sm">Excluir</a>
-                    </td>
+                    <td colspan="5" class="text-center">Nenhum produto encontrado.</td>
                 </tr>
             }
-        }
-        else
-        {
-            <tr>
-                <td colspan="5" class="text-center">Nenhum produto encontrado.</td>
-            </tr>
-        }
-    </tbody>
-</table>
+        </tbody>
+    </table>
+</div>
