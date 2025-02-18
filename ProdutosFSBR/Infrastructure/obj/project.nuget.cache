@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0IUdwZdrOZ2dW+lVGntJCtJXl+DOdHJMpQ3XMjzHz97fbQQ0MlPwum3Zw2snD+YCpBCcFPkFD7IpaBhTQdeWkA==",
+  "dgSpecHash": "XRnAKeae+GzVEd3vd6db8qrHYMCypTXDo1pz1o3kliGkNcDEtxvBUvdjCxJhS59XufsOhh0zXO9drwNar/NjoQ==",
   "success": true,
   "projectFilePath": "C:\\FSBRProjeto\\GerenciadorDeProdutos\\ProdutosFSBR\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\sando\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
     "C:\\Users\\sando\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
     "C:\\Users\\sando\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0\\microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
+    "C:\\Users\\sando\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.0\\microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
     "C:\\Users\\sando\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\sando\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\sando\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
